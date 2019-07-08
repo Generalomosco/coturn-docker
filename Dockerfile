@@ -107,7 +107,6 @@ EXPOSE 20000-65535/udp
 
 COPY rootfs /
 
-RUN chmod u+rx /usr/local/bin/coturn.sh \
- && ln -s /usr/local/bin/coturn.sh
+RUN chmod u+rx /usr/local/bin/coturn.sh
 
 CMD ["coturn.sh"]
