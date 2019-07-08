@@ -1,2 +1,2 @@
 build:
-	docker build -t Generalomosco/coturn-docker .
+	docker build -t generalomosco/coturn-docker .

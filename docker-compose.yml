@@ -2,7 +2,7 @@ version: "3"
 services:
   coturn:
     restart: always
-    image: Generalomosco/coturn-docker:latest
+    image: generalomosco/coturn-docker:latest
     network_mode: host
     ports:
       - "3478:3478/udp" # STUN/TURN UDP
