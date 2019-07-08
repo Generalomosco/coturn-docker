@@ -1,4 +1,4 @@
-# Vcam iceServer
+# Coturn Docker compose
 
 ### Installation
 
